@@ -4,32 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="894b9028-d920-4db4-b6ff-4030a6acd097" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ParkingLotProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/Bill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/BillStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/Gate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/GateType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/ParkingFloor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/ParkingFloorStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/ParkingLot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/ParkingLotStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/ParkingSpot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/ParkingSpotStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/PaymentMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/PaymentStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/VehicleType.java" afterDir="false" />
+    <list default="true" id="894b9028-d920-4db4-b6ff-4030a6acd097" name="Changes" comment="ParkingLot with Models">
+      <change afterPath="$PROJECT_DIR$/src/Controller/TicketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DTO/GenerateTicketRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DTO/GenerateTicketResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DTO/ResponseStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exceptions/NoParkingSpotFoundExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObjectContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/ParkingLotRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/TicketRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/VehicleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/GateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/ParkingLotService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/TicketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/VehicleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/RandomSpotAssignmentStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/SpotAssignmentStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Gate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Gate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/ParkingSpot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/ParkingSpot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,39 +37,41 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2XfJvYynLbTHca7O0IVNr47PBzk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="DTO" />
       <recent name="Models" />
     </key>
   </component>
@@ -83,11 +83,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699014434479</updated>
-      <workItem from="1699014436164" duration="4168000" />
+      <workItem from="1699014436164" duration="10314000" />
+      <workItem from="1699060970841" duration="17933000" />
+      <workItem from="1699148817755" duration="400000" />
     </task>
+    <task id="LOCAL-00001" summary="ParkingLot with Models">
+      <option name="closed" value="true" />
+      <created>1699019019185</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699019019185</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ParkingLot with Models" />
+    <option name="LAST_COMMIT_MESSAGE" value="ParkingLot with Models" />
   </component>
 </project>
